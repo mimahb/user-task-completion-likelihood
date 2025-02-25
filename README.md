@@ -26,8 +26,10 @@ pip install -r requirements.txt
 user-task-completion-likelihood.ipynb
 
 ## Model & Performance 
-Model Used: Decision Tree Classifier
-Evaluation Metrics: Accuracy, Precision, Recall
+### Model Used
+Decision Tree Classifier
+### Evaluation Metrics 
+Accuracy, Precision, Recall
 
 ## Results 
 Accuracy: 81%
