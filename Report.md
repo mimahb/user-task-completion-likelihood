@@ -14,36 +14,36 @@ Target Variable: CourseCompletion (1 = Completed, 0 = Not Completed)
 #### DeviceType
 
 ## Data Preprocessing
-Checked for missing values and dropped any if necessary.
-Scaled numerical features using StandardScaler.
-Split the dataset into 80% training and 20% testing.
+#### Checked for missing values and dropped any if necessary.
+#### Scaled numerical features using StandardScaler.
+#### Split the dataset into 80% training and 20% testing.
 
 ## Model Selection & Training
-Chose Decision Tree Classifier as the model.
-Trained the model on the processed dataset.
+##### Chose Decision Tree Classifier as the model.
+##### Trained the model on the processed dataset.
 
 ## Evaluation Metrics & Results
 The model was evaluated using accuracy, precision, and recall:
-Accuracy: Measures overall correctness.
-Precision: Indicates how many predicted completions were actually completed.
-Recall: Measures how many actual completions were correctly identified.
+##### Accuracy: Measures overall correctness.
+##### Precision: Indicates how many predicted completions were actually completed.
+##### Recall: Measures how many actual completions were correctly identified.
 
-Accuracy: 0.81
+#### Accuracy: 0.81
 
-Precision: 0.80
+#### Precision: 0.80
 
-Recall: 0.72
+#### Recall: 0.72
 
 ## Key Insights & Observations
 
-Feature Importance: Features like CompletionRate and QuizScores had the strongest correlation with course completion.
+#### Feature Importance: Features like CompletionRate and QuizScores had the strongest correlation with course completion.
 
-Data Imbalance: Slight imbalance between completed and non-completed cases, but handled effectively.
+#### Data Imbalance: Slight imbalance between completed and non-completed cases, but handled effectively.
 
 ### Potential Improvements:
-Experiment with other models like Random Forest or XGBoost for better accuracy.
-Tune hyperparameters to optimize performance.
-Collect more diverse data to enhance model robustness.
+##### Experiment with other models like Random Forest or XGBoost for better accuracy.
+##### Tune hyperparameters to optimize performance.
+##### Collect more diverse data to enhance model robustness.
 
 ## Conclusion
 
