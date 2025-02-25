@@ -12,20 +12,18 @@ CourseCompletion (Target Variable: 1 = Completed, 0 = Not Completed)
 
 ## Project Structure
 📂 online-course-prediction
-├── 📄 main.py             # Main script for data processing, training, and evaluation
-├── 📄 requirements.txt    # Required dependencies
-├── 📄 README.md           # Documentation
-├── 📄 report.pdf          # Project summary report
-└── 📂 data                # Dataset
+     📄 main.py             
+     📄 README.md           
+     📄 report.pdf          
+📂 data              
 
 ## Installation & Set Up 
 ### Clone the repository
-git clone <your-github-repo-link>
-cd online-course-prediction
+git clone https://github.com/mimahb/user-task-completion-likelihood.git
 ### Install Dependencies 
 pip install -r requirements.txt
-### Run the project
-python main.py
+### Run the notebook
+user-task-completion-likelihood.ipynb
 
 ## Model & Performance 
 Model Used: Decision Tree Classifier
