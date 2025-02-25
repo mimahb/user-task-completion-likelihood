@@ -10,7 +10,7 @@ CompletionRate
 DeviceType
 CourseCompletion (Target Variable: 1 = Completed, 0 = Not Completed)
 
-##Project Structure
+## Project Structure
 📂 online-course-prediction
 ├── 📄 main.py             # Main script for data processing, training, and evaluation
 ├── 📄 requirements.txt    # Required dependencies
@@ -18,20 +18,20 @@ CourseCompletion (Target Variable: 1 = Completed, 0 = Not Completed)
 ├── 📄 report.pdf          # Project summary report
 └── 📂 data                # Dataset
 
-##Installation & Set Up 
-###Clone the repository
+## Installation & Set Up 
+### Clone the repository
 git clone <your-github-repo-link>
 cd online-course-prediction
-###Install Dependencies 
+### Install Dependencies 
 pip install -r requirements.txt
-###Run the project
+### Run the project
 python main.py
 
-##Model & Performance 
+## Model & Performance 
 Model Used: Decision Tree Classifier
 Evaluation Metrics: Accuracy, Precision, Recall
 
-##Results 
+## Results 
 Accuracy: 81%
 Precision: 80%
 Recall: 72%
