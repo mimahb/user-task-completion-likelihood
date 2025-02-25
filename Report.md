@@ -6,12 +6,12 @@ This project aims to predict whether a user will complete an online course based
 Target Variable: CourseCompletion (1 = Completed, 0 = Not Completed)
 
 ### Features Used:
--TimeSpentOnCourse
--NumberOfVideosWatched
--NumberOfQuizzesTaken
--QuizScores
--CompletionRate
--DeviceType
+#### TimeSpentOnCourse
+#### NumberOfVideosWatched
+#### NumberOfQuizzesTaken
+#### QuizScores
+#### CompletionRate
+#### DeviceType
 
 ## Data Preprocessing
 Checked for missing values and dropped any if necessary.
