@@ -3,19 +3,19 @@ This project builds a machine learning model to predict whether a user will comp
 
 ## Dataset
 The dataset contains user activity features such as:
-TimeSpentOnCourse
-NumberOfVideosWatched
-NumberOfQuizzesTaken
-CompletionRate
-DeviceType
-CourseCompletion (Target Variable: 1 = Completed, 0 = Not Completed)
+#### TimeSpentOnCourse
+#### NumberOfVideosWatched
+#### NumberOfQuizzesTaken
+#### CompletionRate
+#### DeviceType
+#### CourseCompletion (Target Variable: 1 = Completed, 0 = Not Completed)
 
 ## Project Structure
-📂 online-course-prediction
+#### 📂 online-course-prediction
      📄 main.py             
      📄 README.md           
      📄 report.pdf          
-📂 data              
+#### 📂 data              
 
 ## Installation & Set Up 
 ### Clone the repository
@@ -32,6 +32,6 @@ Decision Tree Classifier
 Accuracy, Precision, Recall
 
 ## Results 
-Accuracy: 81%
-Precision: 80%
-Recall: 72%
+#### Accuracy: 81%
+#### Precision: 80%
+#### Recall: 72%
