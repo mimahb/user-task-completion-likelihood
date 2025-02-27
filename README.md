@@ -22,8 +22,8 @@ The dataset contains user activity features such as:
 git clone https://github.com/mimahb/user-task-completion-likelihood.git
 ### Install Dependencies 
 'pip install -r requirements.txt.'
-### Run the notebook
-usertaskcompletionlikelihood.ipynb
+### Run the project
+python main.py
 
 ## Model & Performance 
 ### Model Used
